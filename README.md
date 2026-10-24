@@ -2,9 +2,9 @@
 A FastAPI-based backend that connects to Language Models (LLMs) via AvalAI, featuring real-time streaming responses.
 
 ## 
-- Real-time streaming: Responses appear word-by-word (like ChatGPT).
-- conversation Memory: Keeps track of the chat history.
-- Custom system Prompts: Define the AI's personality.
+- Real-Time Streaming: Responses appear word-by-word (like ChatGPT).
+- Conversation Memory: Keeps track of the chat history.
+- Custom System Prompts: Define the AI's personality.
 - Simple Frontend: Includes an HTML/JS page for testing.
 
   ## Tech Stack
@@ -15,7 +15,7 @@ A FastAPI-based backend that connects to Language Models (LLMs) via AvalAI, feat
   - AvalAI (LLM Provider)
  
     ## How to Run
-    1. Instll dependencies:
+    1. Install dependencies:
     pip install fastapi uvicorn requests
     2. Run the server:
     uvicorn main: --reload
